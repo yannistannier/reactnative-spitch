@@ -1,0 +1,56 @@
+{
+  "name": "spitchtv",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "postinstall": "remotedev-debugger",
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.16.1",
+    "jwt-decode": "^2.2.0",
+    "native-base": "^2.1.1",
+    "react": "16.0.0-alpha.6",
+    "react-native": "0.44.0",
+    "react-native-camera": "^0.9.4",
+    "react-native-circular-progress": "0.0.8",
+    "react-native-experimental-navigation": "0.26.10",
+    "react-native-fbsdk": "^0.5.0",
+    "react-native-fcm": "^6.2.0",
+    "react-native-fetch-blob": "^0.10.5",
+    "react-native-firebase-analytics": "^3.0.0",
+    "react-native-i18n": "^2.0.6",
+    "react-native-image-crop-picker": "^0.13.0",
+    "react-native-progress": "^3.3.0",
+    "react-native-router-flux": "^3.39.1",
+    "react-native-sentry": "^0.13.3",
+    "react-native-simple-auth": "^2.1.0",
+    "react-native-simple-store": "^1.1.0",
+    "react-native-swiper": "^1.5.4",
+    "react-native-video": "^1.0.0",
+    "react-native-video-editor": "^0.1.1",
+    "react-redux": "^5.0.4",
+    "redux": "^3.6.0",
+    "redux-form": "^6.6.3",
+    "redux-persist": "^4.6.0",
+    "redux-promise-middleware": "^4.2.0",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-jest": "19.0.0",
+    "babel-preset-react-native": "1.9.1",
+    "jest": "19.0.2",
+    "react-test-renderer": "16.0.0-alpha.6",
+    "remote-redux-devtools": "^0.5.7",
+    "remote-redux-devtools-on-debugger": "^0.7.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "assets/fonts"
+    ]
+  }
+}
